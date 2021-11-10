@@ -1,0 +1,174 @@
+html{
+    font-size: 20px;
+}
+body{
+    margin: 2% 5%;
+}
+main{
+    width:75%;
+    display: inline-block;
+
+}
+#my-image{
+    border-radius: 50%;
+    height: 8rem;
+}
+table p,a{
+    margin-bottom: 0;
+    font-size: medium;
+}
+#header-image{
+    width: 100%;
+    height: 40vh;
+    background-image: url("images/header-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+#header-image h4{
+    text-transform: uppercase;
+    word-spacing:1px;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:sans-serif
+}
+#chipku{
+    height: 123px;
+    width: 41px;
+    position: fixed;
+    top: 25%;
+    left: 0;
+
+    
+    /*cursor: auto;*/
+
+}
+chipku a{
+    display:block;
+}
+.png-image{
+    height: 39px;
+    width: 41px;
+    padding: 0px;
+
+}
+#author{
+    display: inline-block;
+    height: 7rem;
+    width: 8rem;
+    border-top: 2px solid black;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid black;
+    vertical-align: top;
+    margin-left: 1.6rem;
+}
+
+#author span{
+    font-size: 0.7rem;
+    display: block;
+    text-decoration: underline;
+    padding-left:25%;
+}
+#author-image{
+    height: 2rem;
+    width: 2rem;
+}
+#author p{
+    font-size: 0.9vw;
+    padding-left: 25%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+#article{
+    width: 80%;
+    display: inline-block;
+    margin-left: 8rem;
+
+}
+#article p{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    word-spacing: 0.7;
+    text-align: justify;
+
+}
+#article ol p{
+    padding-left: 2rem;
+    text-align: justify;
+    word-spacing: 0.7;
+    line-height: 1.3rem;
+    margin-top: 0.7rem;
+    font-size: 0.5;
+}
+.widget{
+    border-top: 2px solid black;
+}
+aside{
+    display:inline-block;
+    width:20%;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-top: 6.5rem;
+}
+#subscription input{
+    display: block;
+    background-color: whitesmoke;
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+#subscription input[type="submit"]{
+    margin-top: 0.7rem;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 200;
+    width: 4rem;
+}
+#subscription input[type="submit"]:hover{
+    text-decoration: underline;
+
+}
+#recent{
+    margin-bottom: 1rem;
+
+}
+#recent ul li{
+    margin-bottom: 1rem;
+}
+#recent ul li a{
+    font-size: 1rem;
+    color: chocolate;
+}
+#recent ul li a:hover{
+    color: red;
+}
+#comments{
+    margin-bottom: 1rem;
+}
+#comments ul li{
+    margin-bottom: 1rem;
+}
+#comments ul li a{
+    font-size: 1rem;
+    color: chocolate;
+}
+#comments ul li a:hover{
+    color: red;
+}
+#categories ul li{
+    margin-bottom: 1rem;
+}
+#categories ul li a{
+    font-size: 1rem;
+    color: chocolate;
+}
+#categories ul li a:hover{
+    color: red;
+}
+
+
+
